@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.Comparator;
 import java.util.function.BinaryOperator;
+import java.util.function.Supplier;
 
 /**
  * Created by yingmei.qym on 2016/11/16.
@@ -25,6 +26,7 @@ public class LambdaTest {
     public void useLambda(){
         Runnable runnable = ()-> System.out.println("using lambda");
         runnable.run();
+//        Supplier<Student> studentSupplier =
 
     }
 
